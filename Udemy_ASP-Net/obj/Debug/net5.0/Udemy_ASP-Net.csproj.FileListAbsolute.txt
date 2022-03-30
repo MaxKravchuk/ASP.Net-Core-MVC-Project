@@ -435,3 +435,5 @@ D:\VStudio_Projects\Udemy_ASP-Net\Udemy_ASP-Net\obj\Debug\net5.0\Razor\Views\App
 D:\VStudio_Projects\Udemy_ASP-Net\Udemy_ASP-Net\obj\Debug\net5.0\Razor\Views\ApplicationType\Create.cshtml.g.cs
 D:\VStudio_Projects\Udemy_ASP-Net\Udemy_ASP-Net\obj\Debug\net5.0\Razor\Views\Category\Edit.cshtml.g.cs
 D:\VStudio_Projects\Udemy_ASP-Net\Udemy_ASP-Net\obj\Debug\net5.0\Razor\Views\Category\Delete.cshtml.g.cs
+D:\VStudio_Projects\Udemy_ASP-Net\Udemy_ASP-Net\obj\Debug\net5.0\Razor\Views\ApplicationType\Delete.cshtml.g.cs
+D:\VStudio_Projects\Udemy_ASP-Net\Udemy_ASP-Net\obj\Debug\net5.0\Razor\Views\ApplicationType\Edit.cshtml.g.cs
