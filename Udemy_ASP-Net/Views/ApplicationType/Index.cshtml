@@ -1,7 +1,46 @@
-﻿
-@{
-    ViewData["Title"] = "Index";
-}
+﻿@model IEnumerable<Udemy_ASP_Net.Models.ApplicationType>
 
-<h1>Index</h1>
+<div class="container">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2 class="text-primary">Application type list</h2>
+        </div>
+        <div class="col-6 text-right">
+            <p>
+                <a asp-controller="ApplicationType" asp-action="Create" class="btn btn-primary">
+                    Create new type
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <br /><br />
+
+    @if (Model.Any())
+    {
+
+        <table class="table table-bordered table-striped" style="width:100%">
+            <thead>
+                <tr>
+                    <th>
+                        Name
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var cat in Model)
+                {
+                    <tr>
+                        <td width="50%">@cat.Name</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>No type exist.</p>
+    }
+</div>
 
