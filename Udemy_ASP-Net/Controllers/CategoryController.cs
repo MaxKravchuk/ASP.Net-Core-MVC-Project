@@ -34,6 +34,7 @@ namespace Udemy_ASP_Net.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(Category obj)
         {
+            if (!ModelState.IsValid) return View(obj);
             _db.Category.Add(obj);
             _db.SaveChanges();
             return RedirectToAction("Index");
