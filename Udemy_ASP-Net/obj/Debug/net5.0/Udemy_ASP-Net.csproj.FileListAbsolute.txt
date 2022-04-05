@@ -441,3 +441,4 @@ D:\VStudio_Projects\Udemy_ASP-Net\Udemy_ASP-Net\obj\Debug\net5.0\Razor\Views\Pro
 D:\VStudio_Projects\Udemy_ASP-Net\Udemy_ASP-Net\obj\Debug\net5.0\Razor\Views\Product\Upsert.cshtml.g.cs
 D:\VStudio_Projects\Udemy_ASP-Net\Udemy_ASP-Net\obj\Debug\net5.0\Razor\Views\Product\Delete.cshtml.g.cs
 D:\VStudio_Projects\Udemy_ASP-Net\Udemy_ASP-Net\obj\Debug\net5.0\Razor\Views\Shared\_IndividualProdCard.cshtml.g.cs
+D:\VStudio_Projects\Udemy_ASP-Net\Udemy_ASP-Net\obj\Debug\net5.0\Razor\Views\Home\Details.cshtml.g.cs
