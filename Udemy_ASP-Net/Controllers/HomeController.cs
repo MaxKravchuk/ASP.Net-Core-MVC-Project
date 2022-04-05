@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using Udemy_ASP_Net.Data;
 using Udemy_ASP_Net.Models;
 using Udemy_ASP_Net.Models.ViewModels;
+using Udemy_ASP_Net.Utility;
 
 namespace Udemy_ASP_Net.Controllers
 {
@@ -43,6 +44,23 @@ namespace Udemy_ASP_Net.Controllers
             };
 
             return View(DetailsVM);
+        }
+
+        [HttpPost, ActionName("Details")]
+        public IActionResult DetailsPost(int id)
+        {
+            List<ShoppingCart> shoppingCartList = new List<ShoppingCart>();
+
+            if(HttpContext.Session.Get<IEnumerable<ShoppingCart>>(WC.SessionCart)!=null
+                && HttpContext.Session.Get<IEnumerable<ShoppingCart>>(WC.SessionCart).Count() > 0)
+            {
+                shoppingCartList = HttpContext.Session.Get<List<ShoppingCart>>(WC.SessionCart);
+            }
+
+            shoppingCartList.Add(new ShoppingCart { ProductId = id });
+            HttpContext.Session.Set(WC.SessionCart, shoppingCartList);
+
+            return RedirectToAction(nameof(Index));
         }
 
         public IActionResult Privacy()

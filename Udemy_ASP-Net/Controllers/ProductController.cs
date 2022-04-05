@@ -26,13 +26,13 @@ namespace Udemy_ASP_Net.Controllers
 
         public IActionResult Index()
         {
-            IEnumerable<Product> objList = _db.Product;
+            IEnumerable<Product> objList = _db.Product.Include(u => u.Category).Include(u => u.ApplicationType);
 
-            foreach(var obj in objList)
-            {
-                obj.Category = _db.Category.FirstOrDefault(u => u.Id == obj.Id);
-                obj.ApplicationType = _db.ApplicationType.FirstOrDefault(u => u.Id == obj.Id);
-            }
+            //foreach(var obj in objList)
+            //{
+            //    obj.Category = _db.Category.FirstOrDefault(u => u.Id == obj.Id);
+            //    obj.ApplicationType = _db.ApplicationType.FirstOrDefault(u => u.Id == obj.Id);
+            //}
 
             return View(objList);
         }
