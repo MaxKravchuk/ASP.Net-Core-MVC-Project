@@ -9,5 +9,9 @@ namespace Udemy_ASP_Net
     {
         public static string ImgPATH = @"\imgs\product\"; 
         public static string SessionCart = "ShoppingCartSession";
+
+        public static string AdminRole = "Admin";
+        public static string CustomerRole = "Customer";
+
     }
 }
