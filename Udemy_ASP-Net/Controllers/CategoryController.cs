@@ -19,7 +19,7 @@ namespace Udemy_ASP_Net.Controllers
 
         public IActionResult Index()
         {
-            IEnumerable<Category> objList = _db.Category;
+            IEnumerable<Category> objList = _db.Category.OrderBy(u=>u.DisplayOrder);
             return View(objList);
         }
 
