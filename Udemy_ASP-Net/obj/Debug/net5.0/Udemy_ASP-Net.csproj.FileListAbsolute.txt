@@ -977,3 +977,6 @@ D:\VSPrj\ASP.Net-Core-MVC-Project\Udemy_ASP-Net\obj\Debug\net5.0\ref\Udemy_ASP-N
 D:\VSPrj\ASP.Net-Core-MVC-Project\Udemy_ASP-Net\obj\Debug\net5.0\Udemy_ASP-Net.pdb
 D:\VSPrj\ASP.Net-Core-MVC-Project\Udemy_ASP-Net\obj\Debug\net5.0\Udemy_ASP-Net.genruntimeconfig.cache
 D:\VSPrj\ASP.Net-Core-MVC-Project\Udemy_ASP-Net\obj\Debug\net5.0\Razor\Views\Cart\Index.cshtml.g.cs
+D:\VSPrj\ASP.Net-Core-MVC-Project\Udemy_ASP-Net\bin\Debug\net5.0\Mailjet.Client.dll
+D:\VSPrj\ASP.Net-Core-MVC-Project\Udemy_ASP-Net\obj\Debug\net5.0\Razor\Views\Cart\Summary.cshtml.g.cs
+D:\VSPrj\ASP.Net-Core-MVC-Project\Udemy_ASP-Net\obj\Debug\net5.0\Razor\Views\Cart\InquiryConfiramation.cshtml.g.cs

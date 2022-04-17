@@ -11,6 +11,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Udemy_ASP_Net.Data;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
+using Udemy_ASP_Net.Utility;
 
 namespace Udemy_ASP_Net
 {
@@ -33,6 +35,9 @@ namespace Udemy_ASP_Net
                 .AddDefaultTokenProviders().AddDefaultUI()
                 .AddEntityFrameworkStores<AppDbContext>();
 
+            services.AddTransient<IEmailSender, EmailSender>();
+
+            services.AddDistributedMemoryCache();
             services.AddHttpContextAccessor();
             services.AddSession(Options =>
             {
