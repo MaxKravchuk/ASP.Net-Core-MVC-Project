@@ -495,7 +495,6 @@ D:\VSPrj\ASP.Net-Core-MVC-Project\Udemy_ASP-Net\bin\Debug\net5.0\Udemy_ASP-Net.d
 D:\VSPrj\ASP.Net-Core-MVC-Project\Udemy_ASP-Net\bin\Debug\net5.0\Udemy_ASP-Net.runtimeconfig.json
 D:\VSPrj\ASP.Net-Core-MVC-Project\Udemy_ASP-Net\bin\Debug\net5.0\Udemy_ASP-Net.runtimeconfig.dev.json
 D:\VSPrj\ASP.Net-Core-MVC-Project\Udemy_ASP-Net\bin\Debug\net5.0\Udemy_ASP-Net.dll
-D:\VSPrj\ASP.Net-Core-MVC-Project\Udemy_ASP-Net\bin\Debug\net5.0\ref\Udemy_ASP-Net.dll
 D:\VSPrj\ASP.Net-Core-MVC-Project\Udemy_ASP-Net\bin\Debug\net5.0\Udemy_ASP-Net.pdb
 D:\VSPrj\ASP.Net-Core-MVC-Project\Udemy_ASP-Net\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Antiforgery.dll
 D:\VSPrj\ASP.Net-Core-MVC-Project\Udemy_ASP-Net\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
@@ -980,3 +979,4 @@ D:\VSPrj\ASP.Net-Core-MVC-Project\Udemy_ASP-Net\obj\Debug\net5.0\Razor\Views\Car
 D:\VSPrj\ASP.Net-Core-MVC-Project\Udemy_ASP-Net\bin\Debug\net5.0\Mailjet.Client.dll
 D:\VSPrj\ASP.Net-Core-MVC-Project\Udemy_ASP-Net\obj\Debug\net5.0\Razor\Views\Cart\Summary.cshtml.g.cs
 D:\VSPrj\ASP.Net-Core-MVC-Project\Udemy_ASP-Net\obj\Debug\net5.0\Razor\Views\Cart\InquiryConfiramation.cshtml.g.cs
+D:\VSPrj\ASP.Net-Core-MVC-Project\Udemy_ASP-Net\obj\Debug\net5.0\refint\Udemy_ASP-Net.dll

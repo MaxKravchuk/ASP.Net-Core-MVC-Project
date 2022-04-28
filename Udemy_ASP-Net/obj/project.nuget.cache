@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qE++4XLc2f/nr9/xNROXM/veIZpxGfeHWBGhrE7M53CznWwIK/zPhjUhaDvUqo0hC98znSKFbOye+rAsea/9vA==",
+  "dgSpecHash": "WBIziGVykNYXXcolOOkkj2OoyJdgt3ikhjuk2YU3kokMx52lcJc9VZaqIwfpOvEIqwqbAiaYLnNrSKlX0AiLag==",
   "success": true,
   "projectFilePath": "D:\\VSPrj\\ASP.Net-Core-MVC-Project\\Udemy_ASP-Net\\Udemy_ASP-Net.csproj",
   "expectedPackageFiles": [
@@ -172,7 +172,11 @@
     "C:\\Users\\Flink\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Flink\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Flink\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Flink\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\Flink\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\Flink\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.16\\microsoft.netcore.app.host.win-x64.5.0.16.nupkg.sha512",
+    "C:\\Users\\Flink\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Flink\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Flink\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }
