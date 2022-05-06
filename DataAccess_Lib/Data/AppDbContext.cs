@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Models_Lib;
 
-namespace Udemy_ASP_Net.Data
+namespace DataAccess_Lib
 {
     public class AppDbContext : IdentityDbContext
     {

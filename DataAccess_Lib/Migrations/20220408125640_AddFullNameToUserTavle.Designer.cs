@@ -5,13 +5,12 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Udemy_ASP_Net.Data;
 
-namespace Udemy_ASP_Net.Migrations
+namespace DataAccess_Lib.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20220408120755_IdentityRazorClassLib")]
-    partial class IdentityRazorClassLib
+    [Migration("20220408125640_AddFullNameToUserTavle")]
+    partial class AddFullNameToUserTavle
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

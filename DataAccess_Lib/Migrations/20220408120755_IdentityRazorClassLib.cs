@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Udemy_ASP_Net.Migrations
+namespace DataAccess_Lib.Migrations
 {
     public partial class IdentityRazorClassLib : Migration
     {

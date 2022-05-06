@@ -24,6 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DataAccess_Lib\DataAccess_Lib.csproj" />
     <ProjectReference Include="..\Models_Lib\Models_Lib.csproj" />
     <ProjectReference Include="..\Utility_Lib\Utility_Lib.csproj" />
   </ItemGroup>

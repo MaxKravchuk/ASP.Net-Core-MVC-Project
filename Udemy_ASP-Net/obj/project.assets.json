@@ -3275,6 +3275,23 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "DataAccess_Lib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.15",
+          "Microsoft.EntityFrameworkCore": "5.0.15",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.15",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.15",
+          "Models_Lib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DataAccess_Lib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccess_Lib.dll": {}
+        }
+      },
       "Models_Lib/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -10172,6 +10189,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "DataAccess_Lib/1.0.0": {
+      "type": "project",
+      "path": "../DataAccess_Lib/DataAccess_Lib.csproj",
+      "msbuildProject": "../DataAccess_Lib/DataAccess_Lib.csproj"
+    },
     "Models_Lib/1.0.0": {
       "type": "project",
       "path": "../Models_Lib/Models_Lib.csproj",
@@ -10185,6 +10207,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "DataAccess_Lib >= 1.0.0",
       "Mailjet.Api >= 1.2.2",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.15",
       "Microsoft.AspNetCore.Identity.UI >= 5.0.15",
@@ -10228,6 +10251,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "D:\\VSPrj\\ASP.Net-Core-MVC-Project\\DataAccess_Lib\\DataAccess_Lib.csproj": {
+              "projectPath": "D:\\VSPrj\\ASP.Net-Core-MVC-Project\\DataAccess_Lib\\DataAccess_Lib.csproj"
+            },
             "D:\\VSPrj\\ASP.Net-Core-MVC-Project\\Models_Lib\\Models_Lib.csproj": {
               "projectPath": "D:\\VSPrj\\ASP.Net-Core-MVC-Project\\Models_Lib\\Models_Lib.csproj"
             },

@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace Udemy_ASP_Net.Migrations
+namespace DataAccess_Lib.Migrations
 {
-    public partial class AddFullNameToUserTavle : Migration
+    public partial class test : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

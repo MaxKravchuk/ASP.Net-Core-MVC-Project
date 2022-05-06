@@ -4,13 +4,12 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Udemy_ASP_Net.Data;
 
-namespace Udemy_ASP_Net.Migrations
+namespace DataAccess_Lib.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20220401143533_AddProductToDataBase")]
-    partial class AddProductToDataBase
+    [Migration("20220401171857_AddApplicationTypeForeinKey")]
+    partial class AddApplicationTypeForeinKey
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -62,6 +61,9 @@ namespace Udemy_ASP_Net.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<int>("ApplicationTypeId")
+                        .HasColumnType("int");
+
                     b.Property<int>("CategoryId")
                         .HasColumnType("int");
 
@@ -80,6 +82,8 @@ namespace Udemy_ASP_Net.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("ApplicationTypeId");
+
                     b.HasIndex("CategoryId");
 
                     b.ToTable("Product");
@@ -87,11 +91,19 @@ namespace Udemy_ASP_Net.Migrations
 
             modelBuilder.Entity("Models_Lib.Product", b =>
                 {
+                    b.HasOne("Models_Lib.ApplicationType", "ApplicationType")
+                        .WithMany()
+                        .HasForeignKey("ApplicationTypeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("Models_Lib.Category", "Category")
                         .WithMany()
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("ApplicationType");
 
                     b.Navigation("Category");
                 });
