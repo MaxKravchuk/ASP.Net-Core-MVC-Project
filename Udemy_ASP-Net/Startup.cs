@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 using Udemy_ASP_Net.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
-using Udemy_ASP_Net.Utility;
+using Utility_Lib;
 
 namespace Udemy_ASP_Net
 {

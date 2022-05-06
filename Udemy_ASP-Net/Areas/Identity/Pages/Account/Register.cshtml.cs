@@ -13,7 +13,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
-using Udemy_ASP_Net.Models;
+using Models_Lib;
+using Utility_Lib;
 
 namespace Udemy_ASP_Net.Areas.Identity.Pages.Account
 {

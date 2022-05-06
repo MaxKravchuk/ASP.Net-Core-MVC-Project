@@ -5,7 +5,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Udemy_ASP_Net.Data;
-using Udemy_ASP_Net.Models;
+using Models_Lib;
+using Utility_Lib;
 
 namespace Udemy_ASP_Net.Controllers
 {

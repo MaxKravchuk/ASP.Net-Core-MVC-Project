@@ -21,13 +21,13 @@ using Udemy_ASP_Net;
 #nullable disable
 #nullable restore
 #line 2 "D:\VSPrj\ASP.Net-Core-MVC-Project\Udemy_ASP-Net\Views\_ViewImports.cshtml"
-using Udemy_ASP_Net.Models;
+using Models_Lib;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cf18b38b5e170f5f5c3346114f1c8c8da302f5fd", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5fb5c9cec01ec08086fc60af1333f603a07e356c", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable

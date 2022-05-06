@@ -1,6 +1,6 @@
 using System;
 
-namespace Udemy_ASP_Net.Models
+namespace Models_Lib
 {
     public class ErrorViewModel
     {

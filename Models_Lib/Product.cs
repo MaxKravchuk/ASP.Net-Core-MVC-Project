@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Udemy_ASP_Net.Models
+namespace Models_Lib
 {
     public class Product
     {

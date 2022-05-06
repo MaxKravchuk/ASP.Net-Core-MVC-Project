@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace Udemy_ASP_Net.Utility
+namespace Utility_Lib
 {
     public static class SessionExtensions
     {

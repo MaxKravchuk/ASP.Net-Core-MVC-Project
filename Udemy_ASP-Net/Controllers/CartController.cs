@@ -11,9 +11,9 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 using Udemy_ASP_Net.Data;
-using Udemy_ASP_Net.Models;
-using Udemy_ASP_Net.Models.ViewModels;
-using Udemy_ASP_Net.Utility;
+using Models_Lib;
+using Models_Lib.ViewModels;
+using Utility_Lib;
 
 namespace Udemy_ASP_Net.Controllers
 {

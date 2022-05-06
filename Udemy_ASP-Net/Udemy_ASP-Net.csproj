@@ -23,4 +23,9 @@
     <Folder Include="wwwroot\imgs\product\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Models_Lib\Models_Lib.csproj" />
+    <ProjectReference Include="..\Utility_Lib\Utility_Lib.csproj" />
+  </ItemGroup>
+
 </Project>

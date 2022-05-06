@@ -221,7 +221,7 @@ namespace Udemy_ASP_Net.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
-            modelBuilder.Entity("Udemy_ASP_Net.Models.ApplicationType", b =>
+            modelBuilder.Entity("Models_Lib.ApplicationType", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -237,7 +237,7 @@ namespace Udemy_ASP_Net.Migrations
                     b.ToTable("ApplicationType");
                 });
 
-            modelBuilder.Entity("Udemy_ASP_Net.Models.Category", b =>
+            modelBuilder.Entity("Models_Lib.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -256,7 +256,7 @@ namespace Udemy_ASP_Net.Migrations
                     b.ToTable("Category");
                 });
 
-            modelBuilder.Entity("Udemy_ASP_Net.Models.Product", b =>
+            modelBuilder.Entity("Models_Lib.Product", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -342,15 +342,15 @@ namespace Udemy_ASP_Net.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Udemy_ASP_Net.Models.Product", b =>
+            modelBuilder.Entity("Models_Lib.Product", b =>
                 {
-                    b.HasOne("Udemy_ASP_Net.Models.ApplicationType", "ApplicationType")
+                    b.HasOne("Models_Lib.ApplicationType", "ApplicationType")
                         .WithMany()
                         .HasForeignKey("ApplicationTypeId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Udemy_ASP_Net.Models.Category", "Category")
+                    b.HasOne("Models_Lib.Category", "Category")
                         .WithMany()
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)

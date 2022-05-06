@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using Udemy_ASP_Net.Models;
+using Models_Lib;
 
 namespace Udemy_ASP_Net.Data
 {

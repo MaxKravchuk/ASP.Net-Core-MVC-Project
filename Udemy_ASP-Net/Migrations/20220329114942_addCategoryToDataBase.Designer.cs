@@ -20,7 +20,7 @@ namespace Udemy_ASP_Net.Migrations
                 .HasAnnotation("ProductVersion", "5.0.15")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("Udemy_ASP_Net.Models.Category", b =>
+            modelBuilder.Entity("Models_Lib.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

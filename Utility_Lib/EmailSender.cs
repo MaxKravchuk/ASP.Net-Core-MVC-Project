@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Udemy_ASP_Net.Utility
+namespace Utility_Lib
 {
     public class EmailSender : IEmailSender
     {
